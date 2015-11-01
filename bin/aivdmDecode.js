@@ -45,10 +45,10 @@ var aivdmDecode = function (options) {
         this.returnJson = options.returnJson || false;
         // aivdmPassthrough: If true then the original aivdm sentences are embedded in the returned object
         this.aivdmPassthrough = options.aivdmPassthrough || true;
-        // includeMID:  If true then the mid (nationality) of the vesses is included in the returned object
+        // includeMID:  If true then the mid (nationality) of the vessels is included in the returned object
         this.includeMID = options.includeMID || true;
         // accept_related.  Passed as true to decoder when you wish static packets with accepted MMSI passed to output
-        this.accept_related = options.accept_related || true;
+        //this.accept_related = options.accept_related || true;
         // isDebug.  If true, prints debug messages
         this.isDebug = options.isDebug || false;
     } else {

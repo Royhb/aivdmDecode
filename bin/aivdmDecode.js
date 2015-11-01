@@ -1629,7 +1629,8 @@ aivdmDecode.prototype = {
                     if (this.msgType == 24) {
                         this.partNo = this.getBits(38, 2)
                     }
-                    return true;    // this.binString is ready
+                    return this.getData(bLine);
+                    //return true;    // this.binString is ready
                 } else {
                     return false;
                 }

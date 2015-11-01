@@ -1,0 +1,28 @@
+{
+  "name": "aivdmDecode",
+  "version": "0.1.0",
+  "description": "Decoded AIS AIVDM Sentences",
+  "author": "Roy Barkas",
+  "contributors": [],
+  "bin":  {
+    "module-name": "./bin/aivdmDecode.js"
+  },
+  "scripts": {},
+  "main": "./bin/aivdmDecode.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbarkas/aivdmDecode"
+  },
+  "bugs": {
+    "url": "https://githib.com/rbarkas/aivdmDecode/issues"
+  },
+  "keywords": [
+    "ais", "nmea", "decoder"
+  ],
+  "dependencies": {
+    "underscore": "*",
+    "colors": "*",
+    "sprintf-js": "*"
+  },
+  "license": "MIT"
+}
